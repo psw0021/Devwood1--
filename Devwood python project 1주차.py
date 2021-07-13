@@ -213,7 +213,6 @@ while y.lower() != 'quit':
             # check to see whether there is a space or string in the value
             # the value should only contain integers
             t = check_space(n, y)
-            True_flag = True
             r = 0
             while t != 0 and y[0:3] == 'def':
                 print('Error: invalid variable')
@@ -281,7 +280,6 @@ while y.lower() != 'quit':
             print('Error: invalid command')
             y = input('>>> ')
             y = error_find(y)
-        second = y.split()
 
         # if there are no problem with the above process, and
         # if the input starts with 'calc', process the below code
