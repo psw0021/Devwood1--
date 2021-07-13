@@ -6,13 +6,13 @@ boolean_flag = True
 
 
 # functions that are going to be used for binomial calculator program
-def check_space(b, gl):
+def check_space(b, kl):
     """
     This is a function to check whether or not there exists a space between the integers
     (the value of a variable in which the user has input). Also, it make sures that if the
     entered input does not start with 'def', the function will return 0.
     """
-    if gl[0:3] == 'def':
+    if kl[0:3] == 'def':
         if b.isnumeric() is False:
             return 1
         if b.isnumeric() is True:
